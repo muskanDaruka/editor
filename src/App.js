@@ -1,14 +1,16 @@
 import React from "react";
-import CodeEditor from "./components/CodeEditor";
+import CodeEditor from "./components/CodeEditor.tsx";
 import './App.css';
 
 function App() {
   return (
-    <div>
-      <h1>Simple CodeEditor</h1>
+    <div className="container">
+      <h1>Simple Code-Editor</h1>
       <CodeEditor />
     </div>
   );
+
 }
 
 export default App;
+
