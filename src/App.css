@@ -4,7 +4,13 @@
 }
 
 h1 {
-    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+    color: steelblue;
     display: flex;
-    justify-content: center;
+    justify-content: left;
+}
+
+.container {
+    padding-left: 25%;
+    padding-top: 20px;
 }
